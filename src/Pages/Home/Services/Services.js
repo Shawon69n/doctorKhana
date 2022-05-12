@@ -9,16 +9,16 @@ const Services = () => {
     const ca = 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the';
     const whit = 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the';
     return (
-       <div>
-           <h3 className='our-service-txt text-center mt-16 ml-8'>OUR SERVICES</h3>
-           <h1 className='text-4xl text-center font-sans ml-10 mb-5'>Services We Provide</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-40 px-20'>
+       <div className='ml-24'>
+           <h3 className='our-service-txt text-center mt-16'>OUR SERVICES</h3>
+           <h1 className='text-4xl text-center font-sans mb-5'>Services We Provide</h1>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 '>
             <ServicesCard title={fl} img={fluoride}></ServicesCard>
             <ServicesCard title={ca} img={cavity}></ServicesCard>
             <ServicesCard title={whit} img={whitening}></ServicesCard>
-
+            </div>
         {/* special service  */}
-        </div>
+        
         <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className='px-40' >
