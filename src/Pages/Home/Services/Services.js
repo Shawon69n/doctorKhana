@@ -18,7 +18,16 @@ const Services = () => {
             <ServicesCard title={whit} img={whitening}></ServicesCard>
 
         {/* special service  */}
-
+        </div>
+        <div className="hero min-h-screen ">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <div className='px-40' >
+            <h1 className="text-5xl font-bold">Let's smile brightly</h1>
+            <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button className="btn button-bg">Get Started</button>
+          </div>
+          <img className='w-2/5' src={treamtment} alt="" />
+        </div>
         </div>
        </div>
     );
