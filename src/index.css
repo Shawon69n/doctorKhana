@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-bg{
+  background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+border-radius: 8px;
+border: none;
+width: 120px;
+height: 48px;
+left: 105px;
+top: 596px;
+}
+
+.our-service-txt{
+  font-family: Open Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #19D3AE;
+margin-bottom: 5px
+}
+
+.treatment-img{
+width: 458px;
+height: 576px;
+left: 217px;
+margin-left: 100px;
+border-radius: 8px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
