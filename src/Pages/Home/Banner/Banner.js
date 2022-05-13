@@ -2,7 +2,7 @@ import React from 'react';
 import chariImg from '../../../assets/images/chair.png'
 const Banner = () => {
     return (
-        <div className="hero min-h-screen ml-16">
+        <div className="hero min-h-screen p-16">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img className='lg:w-2/4' src={chariImg} alt="" />
           <div >

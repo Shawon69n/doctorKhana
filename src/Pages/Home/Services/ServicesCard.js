@@ -7,7 +7,6 @@ const ServicesCard = ({img,title}) => {
     <img src={img} alt="Shoes" className="rounded-xl" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Shoes!</h2>
     <p>{title}</p>
   </div>
 </div>

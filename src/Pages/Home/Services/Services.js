@@ -9,10 +9,10 @@ const Services = () => {
     const ca = 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the';
     const whit = 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the';
     return (
-       <div className='ml-24'>
+       <div className=''>
            <h3 className='our-service-txt text-center mt-16'>OUR SERVICES</h3>
            <h1 className='text-4xl text-center font-sans mb-5'>Services We Provide</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-20 '>
+            <div className='grid grid-cols-1 lg:grid-cols-3  '>
             <ServicesCard title={fl} img={fluoride}></ServicesCard>
             <ServicesCard title={ca} img={cavity}></ServicesCard>
             <ServicesCard title={whit} img={whitening}></ServicesCard>
@@ -21,12 +21,12 @@ const Services = () => {
         
         <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className='px-40' >
+          <div className='p-16' >
             <h1 className="text-5xl font-bold">Let's smile brightly</h1>
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <button className="btn button-bg">Get Started</button>
           </div>
-          <img className='w-2/5' src={treamtment} alt="" />
+          <img className='lg:w-2/6 w-2/3 ' src={treamtment} alt="" />
         </div>
         </div>
        </div>
